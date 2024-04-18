@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emerson Victor - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+  </head>
+  <body class="bg-black">
+    <nav class="py-2">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex-shrink-0 flex items-center">
+            <span class="text-white text-2xl font-bold"
+              >Airmarsin <span class="text-primary">v</span></span
+            >
+          </div>
+          <div class="hidden sm:block ml-auto">
+            <div class="ml-10 flex items-basline space-x-4">
+              <a
+                href="#hero"
+                class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                >Home</a
+              >
+              <a
+                href="#services"
+                class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                >Services</a
+              >
+              <a
+                href="#work"
+                class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                >work</a
+              >
+              <a
+                href="#testimonials"
+                class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                >reviews</a
+              >
+              <a
+                href="#contact"
+                class="text-white border border-primary px-4 rounded-none py-[10px] hover:bg-primary text-sm font-medium"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="sm:hidden flex items-center">
+            <button
+              id="mobile-menu-btn"
+              type="button"
+              class="text-white hover:text-light-gray focus:outline-none focus:text-light-gray"
+              aria-label="Toogle menu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu" class="menu hidden sm:hidden">
+        <div class="px-2 pt-2 pb-2 space-y-1">
+          <a
+            href="#hero"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >Home</a
+          >
+          <a
+            href="#services"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >Services</a
+          >
+          <a
+            href="#work"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >Work</a
+          >
+          <a
+            href="#testimonials"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >reviews</a
+          >
+ 
+          <div class="px-2">
+            <a
+              href="#contact"
+              class="text-white border border-primary block px-3 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="hero" class="hero text-white py-28">
+      <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h4
+          class="text-2xl font-bold text-primary lg:leading-[94px] lg:text-[38px]"
+        >
+          Hello, I'm Emerson Victor
+        </h4>
+        <h1 class="text-5xl mt-3 font-bold lg:text-[88px] lg:leading-[94px]">
+          <span id="typed"></span>
+        </h1>
+        <p class="mt-4 text-gray font-normal text-base w-full lg:w-3/6 mt-9">
+          I'm from Nigeria and i have been working as a Graphic Designer For
+          More than 4 years and A front-end developer for the past 3 years
+        </p>
+        <div class="mt-14">
+          <div class="mt-6 flex items-center gap-3">
+            <a
+              href="mailto:princeemerson23@gmail.com"
+              class="btn-primary bg-primary text-white rounded-none py-3 px-6 text-lg font-medium mr-4"
+              >Email Me</a
+            >
+            <a
+            href="https://wa.me/message/T5NZH7YIOL67D1"
+            class="btn-primary bg-primary text-white rounded-none py-3 px-6 text-lg font-medium mr-4"
+            ><i class="uil uil-whatsapp"></i>whatsapp</a
+          >
+            <a href="#" class="flex items-center text-gray font-bold taxt-lg"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25"
+                />
+              </svg>
+              <span class="ml-2 hover:underline">Download CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="block md:flex items-start justify-between">
+          <h2
+            class="text-white text-3xl lg:text-5xl font-bold mb-2 w-full md:w-1/2 lg:w-3/5"
+          >
+            5+ years working experience
+          </h2>
+          <div class="mt-6 md:mt-0 w-full md:w-[360px]">
+            <div class="flex items-center">
+              <hr class="w-14 border-t-2 border-primary mr-4" />
+              <h6 class="text-primary font-bold text-xl mr-4">Services</h6>
+            </div>
+            <p class="mt-2 text-gray">
+              Discover the best services i offer, designed to ensure the success
+              of your project
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
+          <div
+            class="card-service bg-light-dark shadow-md rounded-none px-6 py-16"
+            style="position: relative"
+          >
+            <svg
+              width="345"
+              height="6"
+              style="position: absolute; bottom: 0; left: 0"
+              viewBox="0 0 360 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="100%" height="6" fill="#079211"></rect>
+            </svg>
+            <i class="text-green-400 uil uil-object-ungroup"></i>
+            <h5 class="text-white text-2xl font-bold mt-11">Graphics Design</h5>
+            <p class="text-gray text-base mb-4 leading-5 mt-5">
+              I offer innovative and Attention-grabing graphics design services.
+              From Initial idealition to
+            </p>
+          </div>
+          <div
+            class="card-service bg-light-dark shadow-md rounded-none px-6 py-16"
+            style="position: relative"
+          >
+            <svg
+              width="345"
+              height="6"
+              style="position: absolute; bottom: 0; left: 0"
+              viewBox="0 0 360 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="100%" height="6" fill="#079211"></rect>
+            </svg>
+            <i class="text-green-400 uil uil-brackets-curly"></i>
+            <h5 class="text-white text-2xl font-bold mt-11">Web Development</h5>
+            <p class="text-gray text-base mb-4 leading-5 mt-5">
+              I develop responsive and interactive websites for brand and
+              companies
+            </p>
+          </div>
+          <div
+            class="card-service bg-light-dark shadow-md rounded-none px-6 py-16"
+            style="position: relative"
+          >
+            <svg
+              width="345"
+              height="6"
+              style="position: absolute; bottom: 0; left: 0"
+              viewBox="0 0 360 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="100%" height="6" fill="#079211"></rect>
+            </svg>
+            <i class="text-green-400 uil uil-copyright"></i>
+            <h5 class="text-white text-2xl font-bold mt-11">Brand Strategy</h5>
+            <p class="text-gray text-base mb-4 leading-5 mt-5">
+              I help design and captivating brand strategies
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="work mt-28 py-28 bg-light-dark">
+      <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="block md:flex items-center justify-between">
+          <div>
+            <div class="flex items-center">
+              <hr class="w-14 border-t-2 border-primary mr-4" />
+              <h6 class="text-primary font-bold text-xl mr-4">
+                Recent Projects
+              </h6>
+            </div>
+            <h2
+              class="text-white text-3xl lg:text-5xl font-bold mb-2 md:w-3/4 mt-4"
+            >
+              Some of my Recent Projects.
+            </h2>
+          </div>
+          <!-- <div class="mt-6 md:mt-0">
+            <a
+              href="#"
+              class="text-white border border-primary px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4"
+              >View all Projects</a
+            >
+          </div> -->
+        </div>
+        <!-- <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 px-4 mt-20">
+            <div class="relative">
+              <img
+                src="/img/graphics.png"
+                alt=""
+                class="w-full h-2/5 grayscale"
+              />
+            </div>
+            <h5 class="text-[28px] font-semibold text-white mt-9">
+              Alana - live
+            </h5>
+            <a
+              href="#"
+              class="flex items-center text-primary font-medium text-xl mt-2"
+            >
+              <span class="mr-2 hover:underline">See project</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              
+            </a>
+          </div>
+
+          <div class="w-full md:w-1/2 px-4 mt-20">
+            <div class="relative">
+              <img
+                src="/img/apreciation.jpeg"
+                alt=""
+                class="w-full h-2/5 grayscale"
+              />
+            </div>
+            <h5 class="text-[28px] font-semibold text-white mt-9">
+              Alana - live
+            </h5>
+            <a
+              href="#"
+              class="flex items-center text-primary font-medium text-xl mt-2"
+            >
+              <span class="mr-2 hover:underline">See project</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              
+            </a>
+          </div>
+        </div> -->
+        <h1 class="text-3xl text-white font-bold text-center">comming soon</h1>
+      </div>
+    </section>
+    <section>
+      <div id="testimonials" class="testimonials py-28">
+        <div class="container max-w-xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-center">
+            <hr class="w-14 border-t-2 border-primary mr-4">
+            <h6 class="text-primary font-bold text-xl mr-4">testimonials</h6>
+          </div>
+          <h2 class="text-white text-3xl lg:text-5xl font-bold mb-2 mt-4 mx-auto">My Happy Clients
+          </h2>
+          <div class="owl-carousel">
+            <div class="item">
+              <p class="text-gray mt-20">
+                Wow is all i can say! Emerson did an absolute fenominal job from scracth to finish 
+              </p>
+              <div class="flex items-center justify-center gap-5 mt-9">
+                <img src="/images/profile-1.jpg" alt="" class="rounded-full">
+                <div class="">
+                  <h6 class="text-white font-semibold text-xl">Princess Emerson</h6>
+                  <p class="text-gray text-sm ml-[12px]">Project manager, <span class="font-bold">Airmarsin</span></p>
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="item">
+              <p class="text-gray mt-20">
+                Wow is all i can say! Emerson did an absolute fenominal job from scracth to finish 
+              </p>
+              <div class="flex items-center justify-center gap-5 mt-9">
+                <img src="/images/profile-8.jpg" alt="" class="rounded-full">
+                <div class="">
+                  <h6 class="text-white font-semibold text-xl">peace ucha</h6>
+                  <p class="text-gray text-sm ml-[12px]">CEO, <span class="font-bold">Airmarsin</span></p>
+                </div>
+  
+              </div>
+  
+            </div>
+           
+            <div class="item">
+              <p class="text-gray mt-20">
+                Wow is all i can say! Emerson did an absolute fenominal job from scracth to finish 
+              </p>
+              <div class="flex items-center justify-center gap-5 mt-9">
+                <img src="/images/profile-8.jpg" alt="" class="rounded-full">
+                <div class="">
+                  <h6 class="text-white font-semibold text-xl">peace ucha</h6>
+                  <p class="text-gray text-sm ml-[12px]">CEO, <span class="font-bold">Airmarsin</span></p>
+                </div>
+  
+              </div>
+  
+            </div>
+           
+          </div>
+  
+        </div>
+      </div>
+      <div class="owl-dots dots-container"></div>
+
+    </section>
+    <section id="contact" class="contact py-10 bg-deep-gray">
+      <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="block md:flex items-center justify-between">
+          <div class="">
+            <h4 class="text-white text-3xl lg:text-[38px] font-bold mb-2">
+              Have a Project In Mind? 
+
+            </h4>
+            <p class="text-gray mt-4">
+              Feel Free to contact me or just say friendly hello! 
+            </p>
+
+          </div>
+          <div class="mt-8 md:mt-0">
+            <a href="https://wa.me/message/T5NZH7YIOL67D1" class="bg-primary text-white rounded-none py-3 px-6 text-lg font-medium">Contact Me</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <footer class="pt-8 pb-6 bg-deep-dark">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="md:flex justify-between items-start">
+          <span class="text-white text-[26px] font-bold">Emerson <span class="text-primary">victor</span> </span>
+          <div class="w-full links mt-10 md:mt-10 space-y-5 md:w-96 justify-between md:space-y-0 md:flex">
+            <div class="info">
+              <h6 class="text-xl text-white font-semibold mb-6">Information</h6>
+              <ul class="text-gray space-y-3">
+                <li class="hover:underline"><a href="#">+2349163486019</a></li>
+                <li class="hover:underline"><a href="#">princeemerson23@gmail.com</a></li>
+                <li class="hover:underline"><a href="#">Abia state nigeria</a></li>
+              </ul>
+            </div>
+            <div class="social">
+              <h6 class="text-xl text-white font-semibold mb-6">Social Media</h6>
+              <ul class="text-gray space-y-3">
+                <li class="hover:underline"><a href="#">https://www.instagram.com/airmarsin223/</a></li>
+                <li class="hover:underline"><a href="#">princeemerson23@gmail.com</a></li>
+                <li class="hover:underline"><a href="#">Abia state nigeria</a></li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+        <hr class="h-[2px] w-full bg-light-dark mt-16">
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#mobile-menu-btn").click(function () {
+          $("#mobile-menu").slideToggle();
+        });
+      });
+    </script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: ["Graphics Designer", "Web Developer"],
+        typeSpeed: 80,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+            0:{
+              items:1
+            },
+            600:{
+              items:1
+            },
+            1000:{
+              items:1
+            }
+          }
+        })
+      })
+    </script>
+  </body>
+</html>
